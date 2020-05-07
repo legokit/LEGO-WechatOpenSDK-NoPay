@@ -1,0 +1,1 @@
+../../../../../LEGO-WechatOpenSDK-NoPay/Classes/WXApi.h

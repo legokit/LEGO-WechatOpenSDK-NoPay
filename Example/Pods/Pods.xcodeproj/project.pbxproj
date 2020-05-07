@@ -6,17 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		1FEAD7A516F4FDE6546E9B1A81B8F42D /* LEGO-WechatOpenSDK-NoPay */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EBFB507D6B177C4537A8B0D664150A28 /* Build configuration list for PBXAggregateTarget "LEGO-WechatOpenSDK-NoPay" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "LEGO-WechatOpenSDK-NoPay";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		014B105C02C50F41AD4CEDEBE59CC041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		16F1EFFAB795131AF45CB4B3780019F0 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F02D1DD069BE0B39F9689E955A356F /* Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E981481B431209ED01906009678836E /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B7778BDF4723A084AD4C6B10866530 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m */; };
-		6712425EF4B4773226F258B29DE84218 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1500D4E7CD4987D566B6B191D422932 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m */; };
-		70A224464B211BD650E00114F381C62D /* LEGO-WechatOpenSDK-NoPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 80558C11E449E5FBF1BF113E0DF975E7 /* LEGO-WechatOpenSDK-NoPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		801944F7F2655C80B88FDBC5714F0D2C /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C6B0EE50435EA20044D84845856784 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F1EFFAB795131AF45CB4B3780019F0 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2670C1AD15088B64A79E25E5F6E2E6C3 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E981481B431209ED01906009678836E /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F20D28179436F06A44D4D217DAD09BB /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m */; };
+		6712425EF4B4773226F258B29DE84218 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAAD804E7B4968DFD8096E53137206D /* Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m */; };
+		801944F7F2655C80B88FDBC5714F0D2C /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DADF1E2E8A5EBA117D739D7BA32091ED /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B12FCCB23E5D827ABC7096F97C0F14D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8CA7D111830F06A255E3967C526DDDDC /* LEGO-WechatOpenSDK-NoPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6637485D415EB1B6A7BC0E895B1D1A8 /* LEGO-WechatOpenSDK-NoPay-dummy.m */; };
 		DEF2997331E1C66FFFF52102A35D853B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F77F7F09C44A404F48ED2FACDCBF48F6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2910768199F9BB0B0227A8C9A9BD66C1 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,50 +45,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03B8E504E3D9F4381E4434CF268C7E7F /* LEGO-WechatOpenSDK-NoPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGO-WechatOpenSDK-NoPay.debug.xcconfig"; sourceTree = "<group>"; };
-		0CF535995BC313BE9CC72028D9B777AC /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1129E5ADEFDE7312CDC769C9029D3851 /* LEGO-WechatOpenSDK-NoPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGO-WechatOpenSDK-NoPay.release.xcconfig"; sourceTree = "<group>"; };
-		1B23B9999AB785A9D517ECE642F723B0 /* LEGO-WechatOpenSDK-NoPay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LEGO-WechatOpenSDK-NoPay-Info.plist"; sourceTree = "<group>"; };
-		1CD8CF12D386CD24C086A253A6FB5B44 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-Info.plist"; sourceTree = "<group>"; };
-		1F371B528B28078A1ECB2F682948114A /* Pods-LEGO-WechatOpenSDK-NoPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2910768199F9BB0B0227A8C9A9BD66C1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "LEGO-WechatOpenSDK-NoPay/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		0869D3259C56337E2F857A5CF76712E3 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0CB83FDDE54525E23B3840B2586611E6 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-Info.plist"; sourceTree = "<group>"; };
+		1D1EBE913A2CE8B0E4C56B2D582F2B84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2130731A8FF58822940F3766B3582328 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = "LEGO-WechatOpenSDK-NoPay/Classes/WechatAuthSDK.h"; sourceTree = "<group>"; };
+		2670C1AD15088B64A79E25E5F6E2E6C3 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		30ACA36F4B247597BE6F91E2453FCEDA /* Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E658150678647C593BFB4D6D5A8A748 /* LEGO-WechatOpenSDK-NoPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGO-WechatOpenSDK-NoPay.release.xcconfig"; sourceTree = "<group>"; };
 		3FCEAC396790EEF6BE1ABB8754533AE3 /* Pods_LEGO_WechatOpenSDK_NoPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGO_WechatOpenSDK_NoPay_Tests.framework; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B7778BDF4723A084AD4C6B10866530 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m"; sourceTree = "<group>"; };
-		4709FC868E5CEB78B2C3F3277100FCC8 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4FD27E9EC4F82E10503BF91366FDA93D /* Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		555EE703DABA0E9A64CBCAF226087587 /* LEGO-WechatOpenSDK-NoPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGO-WechatOpenSDK-NoPay-prefix.pch"; sourceTree = "<group>"; };
-		5E342881E26A430923C570D71A81C79C /* LEGO-WechatOpenSDK-NoPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LEGO-WechatOpenSDK-NoPay.modulemap"; sourceTree = "<group>"; };
-		63ABB6D36D58BAA581C4DD996C18BACF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6A41574BEBA2AD0F4C0116434AD0A655 /* LEGO_WechatOpenSDK_NoPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LEGO_WechatOpenSDK_NoPay.framework; path = "LEGO-WechatOpenSDK-NoPay.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A80E430BA3EA83DA237E4FA0935836D /* Pods-LEGO-WechatOpenSDK-NoPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example.modulemap"; sourceTree = "<group>"; };
-		79F02D1DD069BE0B39F9689E955A356F /* Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h"; sourceTree = "<group>"; };
-		80558C11E449E5FBF1BF113E0DF975E7 /* LEGO-WechatOpenSDK-NoPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGO-WechatOpenSDK-NoPay-umbrella.h"; sourceTree = "<group>"; };
-		857DBDFEE6FF353CCB51933BCA049A9B /* Pods-LEGO-WechatOpenSDK-NoPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example.release.xcconfig"; sourceTree = "<group>"; };
-		91C6B0EE50435EA20044D84845856784 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9CCF463C4748696F80D515BF10C73B83 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5200937D2FB4CB0C2463208F203D4D6F /* LEGO-WechatOpenSDK-NoPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LEGO-WechatOpenSDK-NoPay.debug.xcconfig"; sourceTree = "<group>"; };
+		5F20D28179436F06A44D4D217DAD09BB /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		60B4A68929C87A22135378272157D585 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests.modulemap"; sourceTree = "<group>"; };
+		61711EFE51185067B4A6278ED9F6E7A5 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6321EDD1B67A3928250CDB689AD5BF48 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-Info.plist"; sourceTree = "<group>"; };
+		6510C3FE0D8D4DCF7C415B72841DAAA6 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		712113D469C0ACCE6895FDE35DD7417C /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = "LEGO-WechatOpenSDK-NoPay/Classes/libWeChatSDK.a"; sourceTree = "<group>"; };
+		7DAAD804E7B4968DFD8096E53137206D /* Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m"; sourceTree = "<group>"; };
+		96652EB9A6677A86333E455DF3B05D97 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = "LEGO-WechatOpenSDK-NoPay/Classes/WXApiObject.h"; sourceTree = "<group>"; };
+		994755DEC30A3F562815AD81D1EF228C /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A75ABCC4114AAC68DD3129C8BD0561D8 /* LEGO-WechatOpenSDK-NoPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "LEGO-WechatOpenSDK-NoPay.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B2DB0F663C1978BA94BC0EB22F7AA8AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B342D1EB4D1F3FE495B9D3C54A334317 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C67C9A46BE50DF2E370FA9660A3C5732 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6637485D415EB1B6A7BC0E895B1D1A8 /* LEGO-WechatOpenSDK-NoPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEGO-WechatOpenSDK-NoPay-dummy.m"; sourceTree = "<group>"; };
-		EDEAAF47DE53A29A62CF0A372F20A98F /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests.modulemap"; sourceTree = "<group>"; };
-		EFF2EEA33890793FD7A9FFE35B877856 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F1500D4E7CD4987D566B6B191D422932 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m"; sourceTree = "<group>"; };
+		AAB7CFD4058A72321FE75DA3D1CBDABA /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = "LEGO-WechatOpenSDK-NoPay/Classes/WXApi.h"; sourceTree = "<group>"; };
+		BB2507ADE4406FE0DCB4D1D0CF32B700 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C0A1B7F29590AA8DA7A41F68087EA3EF /* Pods-LEGO-WechatOpenSDK-NoPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C3E9587731C5A20A1E2662C0523E3434 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1BA299C59C4E4B688FA3299899866A6 /* Pods-LEGO-WechatOpenSDK-NoPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example.modulemap"; sourceTree = "<group>"; };
+		DADF1E2E8A5EBA117D739D7BA32091ED /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E8C07036F34BE90113E6D802FB08B389 /* LEGO-WechatOpenSDK-NoPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "LEGO-WechatOpenSDK-NoPay.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3C3F393950B42C99B013BEFBB921B99 /* Pods_LEGO_WechatOpenSDK_NoPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGO_WechatOpenSDK_NoPay_Example.framework; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC41039C549AB72D77B5F14309BFA7C8 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGO-WechatOpenSDK-NoPay_Tests-Info.plist"; sourceTree = "<group>"; };
+		F42A73CB803717802E62ED0AC9C7E65D /* Pods-LEGO-WechatOpenSDK-NoPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGO-WechatOpenSDK-NoPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A12D63B277EB44C4067F4CA93AA655E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				014B105C02C50F41AD4CEDEBE59CC041 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7378A9495CE22846E3A3DCC888C382ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -100,89 +96,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1413746D8F6DA93E3DDDB02568049FE0 /* Pods-LEGO-WechatOpenSDK-NoPay_Example */ = {
+		305FC6B54201AA942C7423CBC837AE8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A80E430BA3EA83DA237E4FA0935836D /* Pods-LEGO-WechatOpenSDK-NoPay_Example.modulemap */,
-				9CCF463C4748696F80D515BF10C73B83 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.markdown */,
-				4FD27E9EC4F82E10503BF91366FDA93D /* Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.plist */,
-				F1500D4E7CD4987D566B6B191D422932 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m */,
-				B342D1EB4D1F3FE495B9D3C54A334317 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-frameworks.sh */,
-				1CD8CF12D386CD24C086A253A6FB5B44 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-Info.plist */,
-				79F02D1DD069BE0B39F9689E955A356F /* Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h */,
-				1F371B528B28078A1ECB2F682948114A /* Pods-LEGO-WechatOpenSDK-NoPay_Example.debug.xcconfig */,
-				857DBDFEE6FF353CCB51933BCA049A9B /* Pods-LEGO-WechatOpenSDK-NoPay_Example.release.xcconfig */,
-			);
-			name = "Pods-LEGO-WechatOpenSDK-NoPay_Example";
-			path = "Target Support Files/Pods-LEGO-WechatOpenSDK-NoPay_Example";
-			sourceTree = "<group>";
-		};
-		19A9A63D723ABFE93E28C988296C27A5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6A41574BEBA2AD0F4C0116434AD0A655 /* LEGO_WechatOpenSDK_NoPay.framework */,
 				F3C3F393950B42C99B013BEFBB921B99 /* Pods_LEGO_WechatOpenSDK_NoPay_Example.framework */,
 				3FCEAC396790EEF6BE1ABB8754533AE3 /* Pods_LEGO_WechatOpenSDK_NoPay_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B3256AAC8E2F5C6800A396ACB30E808 /* Targets Support Files */ = {
+		4A9719FA3D2222AB719F7DBC5EE23169 /* Pods-LEGO-WechatOpenSDK-NoPay_Example */ = {
 			isa = PBXGroup;
 			children = (
-				1413746D8F6DA93E3DDDB02568049FE0 /* Pods-LEGO-WechatOpenSDK-NoPay_Example */,
-				AFE41AE5F3191E357160FEA6CAF7A729 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests */,
+				D1BA299C59C4E4B688FA3299899866A6 /* Pods-LEGO-WechatOpenSDK-NoPay_Example.modulemap */,
+				C3E9587731C5A20A1E2662C0523E3434 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.markdown */,
+				30ACA36F4B247597BE6F91E2453FCEDA /* Pods-LEGO-WechatOpenSDK-NoPay_Example-acknowledgements.plist */,
+				7DAAD804E7B4968DFD8096E53137206D /* Pods-LEGO-WechatOpenSDK-NoPay_Example-dummy.m */,
+				6321EDD1B67A3928250CDB689AD5BF48 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-Info.plist */,
+				2670C1AD15088B64A79E25E5F6E2E6C3 /* Pods-LEGO-WechatOpenSDK-NoPay_Example-umbrella.h */,
+				F42A73CB803717802E62ED0AC9C7E65D /* Pods-LEGO-WechatOpenSDK-NoPay_Example.debug.xcconfig */,
+				C0A1B7F29590AA8DA7A41F68087EA3EF /* Pods-LEGO-WechatOpenSDK-NoPay_Example.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-LEGO-WechatOpenSDK-NoPay_Example";
+			path = "Target Support Files/Pods-LEGO-WechatOpenSDK-NoPay_Example";
 			sourceTree = "<group>";
 		};
-		73B3D061BC6F1A4D7CE78895D013879D /* Pod */ = {
+		5183DC1A64C5A26DAD50AB9003E9FEA6 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A75ABCC4114AAC68DD3129C8BD0561D8 /* LEGO-WechatOpenSDK-NoPay.podspec */,
-				63ABB6D36D58BAA581C4DD996C18BACF /* LICENSE */,
-				B2DB0F663C1978BA94BC0EB22F7AA8AF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		994E8980DC5F0470BC93358F4774B342 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E342881E26A430923C570D71A81C79C /* LEGO-WechatOpenSDK-NoPay.modulemap */,
-				D6637485D415EB1B6A7BC0E895B1D1A8 /* LEGO-WechatOpenSDK-NoPay-dummy.m */,
-				1B23B9999AB785A9D517ECE642F723B0 /* LEGO-WechatOpenSDK-NoPay-Info.plist */,
-				555EE703DABA0E9A64CBCAF226087587 /* LEGO-WechatOpenSDK-NoPay-prefix.pch */,
-				80558C11E449E5FBF1BF113E0DF975E7 /* LEGO-WechatOpenSDK-NoPay-umbrella.h */,
-				03B8E504E3D9F4381E4434CF268C7E7F /* LEGO-WechatOpenSDK-NoPay.debug.xcconfig */,
-				1129E5ADEFDE7312CDC769C9029D3851 /* LEGO-WechatOpenSDK-NoPay.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LEGO-WechatOpenSDK-NoPay";
-			sourceTree = "<group>";
-		};
-		AFE41AE5F3191E357160FEA6CAF7A729 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				EDEAAF47DE53A29A62CF0A372F20A98F /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.modulemap */,
-				C67C9A46BE50DF2E370FA9660A3C5732 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.markdown */,
-				4709FC868E5CEB78B2C3F3277100FCC8 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.plist */,
-				40B7778BDF4723A084AD4C6B10866530 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m */,
-				FC41039C549AB72D77B5F14309BFA7C8 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-Info.plist */,
-				91C6B0EE50435EA20044D84845856784 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h */,
-				0CF535995BC313BE9CC72028D9B777AC /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.debug.xcconfig */,
-				EFF2EEA33890793FD7A9FFE35B877856 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.release.xcconfig */,
+				60B4A68929C87A22135378272157D585 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.modulemap */,
+				6510C3FE0D8D4DCF7C415B72841DAAA6 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.markdown */,
+				61711EFE51185067B4A6278ED9F6E7A5 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-acknowledgements.plist */,
+				5F20D28179436F06A44D4D217DAD09BB /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-dummy.m */,
+				0CB83FDDE54525E23B3840B2586611E6 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-Info.plist */,
+				DADF1E2E8A5EBA117D739D7BA32091ED /* Pods-LEGO-WechatOpenSDK-NoPay_Tests-umbrella.h */,
+				0869D3259C56337E2F857A5CF76712E3 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.debug.xcconfig */,
+				994755DEC30A3F562815AD81D1EF228C /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.release.xcconfig */,
 			);
 			name = "Pods-LEGO-WechatOpenSDK-NoPay_Tests";
 			path = "Target Support Files/Pods-LEGO-WechatOpenSDK-NoPay_Tests";
 			sourceTree = "<group>";
 		};
-		B338585BD9231E2C450EDD4F0FEAE303 /* Development Pods */ = {
+		898DFFC8115E850A1D3C0811D70C2B71 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E158C1BAB8D853645A05FFC3FC04A0A7 /* LEGO-WechatOpenSDK-NoPay */,
+				712113D469C0ACCE6895FDE35DD7417C /* libWeChatSDK.a */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B7ACCC7DCBA548E086F14C2417A7D89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A9719FA3D2222AB719F7DBC5EE23169 /* Pods-LEGO-WechatOpenSDK-NoPay_Example */,
+				5183DC1A64C5A26DAD50AB9003E9FEA6 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B638E2A1DAF537D8C096647DE3C4CDD2 /* LEGO-WechatOpenSDK-NoPay */ = {
+			isa = PBXGroup;
+			children = (
+				2130731A8FF58822940F3766B3582328 /* WechatAuthSDK.h */,
+				AAB7CFD4058A72321FE75DA3D1CBDABA /* WXApi.h */,
+				96652EB9A6677A86333E455DF3B05D97 /* WXApiObject.h */,
+				898DFFC8115E850A1D3C0811D70C2B71 /* Frameworks */,
+				E6EEA496F6D15588025F720DB80EFCE8 /* Pod */,
+				F68B31C9A36CCF4658E6BD6F70123A40 /* Support Files */,
+			);
+			name = "LEGO-WechatOpenSDK-NoPay";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -197,10 +180,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B338585BD9231E2C450EDD4F0FEAE303 /* Development Pods */,
+				DFFAD3ED65139B606BBF5E7EBC8B276A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				19A9A63D723ABFE93E28C988296C27A5 /* Products */,
-				4B3256AAC8E2F5C6800A396ACB30E808 /* Targets Support Files */,
+				305FC6B54201AA942C7423CBC837AE8D /* Products */,
+				9B7ACCC7DCBA548E086F14C2417A7D89 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,15 +195,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E158C1BAB8D853645A05FFC3FC04A0A7 /* LEGO-WechatOpenSDK-NoPay */ = {
+		DFFAD3ED65139B606BBF5E7EBC8B276A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2910768199F9BB0B0227A8C9A9BD66C1 /* ReplaceMe.m */,
-				73B3D061BC6F1A4D7CE78895D013879D /* Pod */,
-				994E8980DC5F0470BC93358F4774B342 /* Support Files */,
+				B638E2A1DAF537D8C096647DE3C4CDD2 /* LEGO-WechatOpenSDK-NoPay */,
 			);
-			name = "LEGO-WechatOpenSDK-NoPay";
-			path = ../..;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E6EEA496F6D15588025F720DB80EFCE8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E8C07036F34BE90113E6D802FB08B389 /* LEGO-WechatOpenSDK-NoPay.podspec */,
+				BB2507ADE4406FE0DCB4D1D0CF32B700 /* LICENSE */,
+				1D1EBE913A2CE8B0E4C56B2D582F2B84 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F68B31C9A36CCF4658E6BD6F70123A40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5200937D2FB4CB0C2463208F203D4D6F /* LEGO-WechatOpenSDK-NoPay.debug.xcconfig */,
+				3E658150678647C593BFB4D6D5A8A748 /* LEGO-WechatOpenSDK-NoPay.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LEGO-WechatOpenSDK-NoPay";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,35 +242,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4B549D28608E08DB59CF8770C638944 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70A224464B211BD650E00114F381C62D /* LEGO-WechatOpenSDK-NoPay-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1FEAD7A516F4FDE6546E9B1A81B8F42D /* LEGO-WechatOpenSDK-NoPay */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 978A362BEC41D2A296C91F65BCCA837D /* Build configuration list for PBXNativeTarget "LEGO-WechatOpenSDK-NoPay" */;
-			buildPhases = (
-				D4B549D28608E08DB59CF8770C638944 /* Headers */,
-				393098430D44E50AD2B70B8E16B492EE /* Sources */,
-				4A12D63B277EB44C4067F4CA93AA655E /* Frameworks */,
-				3D84408048E2DB4D56B343FC48B340AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "LEGO-WechatOpenSDK-NoPay";
-			productName = "LEGO-WechatOpenSDK-NoPay";
-			productReference = 6A41574BEBA2AD0F4C0116434AD0A655 /* LEGO_WechatOpenSDK_NoPay.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		D4B3686827983CB79F723490DBCF629C /* Pods-LEGO-WechatOpenSDK-NoPay_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A93F27E43C19CF739D3ACE7234E3E46 /* Build configuration list for PBXNativeTarget "Pods-LEGO-WechatOpenSDK-NoPay_Example" */;
@@ -327,7 +301,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 19A9A63D723ABFE93E28C988296C27A5 /* Products */;
+			productRefGroup = 305FC6B54201AA942C7423CBC837AE8D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -339,13 +313,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D84408048E2DB4D56B343FC48B340AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C72C719345AADF4E15D34C2C019D9E40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,15 +330,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		393098430D44E50AD2B70B8E16B492EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CA7D111830F06A255E3967C526DDDDC /* LEGO-WechatOpenSDK-NoPay-dummy.m in Sources */,
-				F77F7F09C44A404F48ED2FACDCBF48F6 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		82D675DB99C33C5D894E77D8723D02F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,9 +364,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		03737CE4C66EB678D1F290E874421DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5200937D2FB4CB0C2463208F203D4D6F /* LEGO-WechatOpenSDK-NoPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		243411D4E97B67DF33CEDBE47BE2BFDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFF2EEA33890793FD7A9FFE35B877856 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.release.xcconfig */;
+			baseConfigurationReference = 994755DEC30A3F562815AD81D1EF228C /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -502,7 +473,7 @@
 		};
 		6F4504879EE8A043E2B9ADF81B490207 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CF535995BC313BE9CC72028D9B777AC /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0869D3259C56337E2F857A5CF76712E3 /* Pods-LEGO-WechatOpenSDK-NoPay_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -597,40 +568,9 @@
 			};
 			name = Debug;
 		};
-		BB1760BE796D341046C116372CA0E840 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03B8E504E3D9F4381E4434CF268C7E7F /* LEGO-WechatOpenSDK-NoPay.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LEGO-WechatOpenSDK-NoPay/LEGO-WechatOpenSDK-NoPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LEGO-WechatOpenSDK-NoPay/LEGO-WechatOpenSDK-NoPay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LEGO-WechatOpenSDK-NoPay/LEGO-WechatOpenSDK-NoPay.modulemap";
-				PRODUCT_MODULE_NAME = LEGO_WechatOpenSDK_NoPay;
-				PRODUCT_NAME = LEGO_WechatOpenSDK_NoPay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BBEAF538848C7B6BA859796B0E4AFF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F371B528B28078A1ECB2F682948114A /* Pods-LEGO-WechatOpenSDK-NoPay_Example.debug.xcconfig */;
+			baseConfigurationReference = F42A73CB803717802E62ED0AC9C7E65D /* Pods-LEGO-WechatOpenSDK-NoPay_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -661,41 +601,23 @@
 			};
 			name = Debug;
 		};
-		C01F5E92D3F35CF4A2C83CD3FCDC7D93 /* Release */ = {
+		BCDDE76690B3759956E8C68826E57FBA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1129E5ADEFDE7312CDC769C9029D3851 /* LEGO-WechatOpenSDK-NoPay.release.xcconfig */;
+			baseConfigurationReference = 3E658150678647C593BFB4D6D5A8A748 /* LEGO-WechatOpenSDK-NoPay.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LEGO-WechatOpenSDK-NoPay/LEGO-WechatOpenSDK-NoPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LEGO-WechatOpenSDK-NoPay/LEGO-WechatOpenSDK-NoPay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LEGO-WechatOpenSDK-NoPay/LEGO-WechatOpenSDK-NoPay.modulemap";
-				PRODUCT_MODULE_NAME = LEGO_WechatOpenSDK_NoPay;
-				PRODUCT_NAME = LEGO_WechatOpenSDK_NoPay;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		D50EDE4947971F51E287B75FA434D8C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 857DBDFEE6FF353CCB51933BCA049A9B /* Pods-LEGO-WechatOpenSDK-NoPay_Example.release.xcconfig */;
+			baseConfigurationReference = C0A1B7F29590AA8DA7A41F68087EA3EF /* Pods-LEGO-WechatOpenSDK-NoPay_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -748,20 +670,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		978A362BEC41D2A296C91F65BCCA837D /* Build configuration list for PBXNativeTarget "LEGO-WechatOpenSDK-NoPay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB1760BE796D341046C116372CA0E840 /* Debug */,
-				C01F5E92D3F35CF4A2C83CD3FCDC7D93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9A93F27E43C19CF739D3ACE7234E3E46 /* Build configuration list for PBXNativeTarget "Pods-LEGO-WechatOpenSDK-NoPay_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBEAF538848C7B6BA859796B0E4AFF8F /* Debug */,
 				D50EDE4947971F51E287B75FA434D8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFB507D6B177C4537A8B0D664150A28 /* Build configuration list for PBXAggregateTarget "LEGO-WechatOpenSDK-NoPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03737CE4C66EB678D1F290E874421DFD /* Debug */,
+				BCDDE76690B3759956E8C68826E57FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

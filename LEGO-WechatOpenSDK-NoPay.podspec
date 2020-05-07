@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LEGO-WechatOpenSDK-NoPay'
-  s.version          = '1.8.7.3'
+  s.version          = '1.8.7.4'
   s.summary          = 'A short description of LEGO-WechatOpenSDK-NoPay.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
   s.vendored_libraries = 'LEGO-WechatOpenSDK-NoPay/Classes/**/*.a'
 
   s.libraries = "z", "sqlite3.0", "c++"
-  s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork", "UIKit"
+  s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork", "UIKit","WebKit","CoreGraphics"
 
   # s.resource_bundles = {
   #   'LEGO-WechatOpenSDK-NoPay' => ['LEGO-WechatOpenSDK-NoPay/Assets/*.png']

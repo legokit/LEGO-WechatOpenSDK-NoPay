@@ -1,5 +1,5 @@
 PODS:
-  - LEGO-WechatOpenSDK-NoPay (1.8.7.2)
+  - LEGO-WechatOpenSDK-NoPay (1.8.7.3)
 
 DEPENDENCIES:
   - LEGO-WechatOpenSDK-NoPay (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGO-WechatOpenSDK-NoPay: 20bffbb66296d5059169f3760ada5fa6bc0d0cf9
+  LEGO-WechatOpenSDK-NoPay: baeb999e1ff95b29b83275733208fb5bac5d66da
 
 PODFILE CHECKSUM: f87c9933320c4dc32ac8ad3dfb393d29ff23cd8d
 

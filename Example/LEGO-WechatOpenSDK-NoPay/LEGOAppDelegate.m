@@ -7,11 +7,13 @@
 //
 
 #import "LEGOAppDelegate.h"
-
+#import <LEGO-WechatOpenSDK-NoPay/WXApi.h>
 @implementation LEGOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [WXApi registerApp:@"" universalLink:@""];
     // Override point for customization after application launch.
     return YES;
 }

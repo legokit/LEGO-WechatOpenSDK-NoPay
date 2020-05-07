@@ -1,0 +1,22 @@
+{
+  "name": "LEGO-WechatOpenSDK-NoPay",
+  "version": "0.1.0",
+  "summary": "A short description of LEGO-WechatOpenSDK-NoPay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/564008993@qq.com/LEGO-WechatOpenSDK-NoPay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "564008993@qq.com": "yangqingren@yy.com"
+  },
+  "source": {
+    "git": "https://github.com/564008993@qq.com/LEGO-WechatOpenSDK-NoPay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LEGO-WechatOpenSDK-NoPay/Classes/**/*"
+}

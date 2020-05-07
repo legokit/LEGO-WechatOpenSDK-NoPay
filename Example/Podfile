@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LEGO-WechatOpenSDK-NoPay_Example' do
+  pod 'LEGO-WechatOpenSDK-NoPay', :path => '../'
+
+  target 'LEGO-WechatOpenSDK-NoPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

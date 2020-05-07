@@ -1,0 +1,16 @@
+PODS:
+  - LEGO-WechatOpenSDK-NoPay (0.1.0)
+
+DEPENDENCIES:
+  - LEGO-WechatOpenSDK-NoPay (from `../`)
+
+EXTERNAL SOURCES:
+  LEGO-WechatOpenSDK-NoPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LEGO-WechatOpenSDK-NoPay: 32680b0dba0e6d636f640fa5bc4a5c2c01705c38
+
+PODFILE CHECKSUM: f87c9933320c4dc32ac8ad3dfb393d29ff23cd8d
+
+COCOAPODS: 1.9.1

@@ -30,7 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LEGO-WechatOpenSDK-NoPay/Classes/**/*'
+#  s.source_files = "OpenSDK1.8.0/*.{h}"
+  s.source_files = 'LEGO-WechatOpenSDK-NoPay/Classes/**/*.{h}'
+  s.vendored_libraries = 'LEGO-WechatOpenSDK-NoPay/Classes/**/*.a'
+
   s.libraries = "z", "sqlite3.0", "c++"
   s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork", "UIKit"
 
